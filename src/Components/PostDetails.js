@@ -21,7 +21,7 @@ const PostDetails = ({ data }) => {
 
     return(
         <>
-        <h1>Details page for for posts with ID {id}</h1>
+        <h1>Details page for posts with ID {id}</h1>
         <Card post={post}/>
         </>
     )
