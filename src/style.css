@@ -8,9 +8,10 @@ h1{
 }
 
 .post-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vw;
+  place-items: center;
 }
 img{
     border-radius: 12px;
@@ -19,15 +20,16 @@ img{
 .card {
     /* Add shadows to create the "card" effect */
     border: 1px solid rgba(255, 255, 255, 0.5);
-    max-width: 300px;
-    border-radius: 5px
+    width: 350px;
+    border-radius: 5px;
   }
   
   /* Add some padding inside the card container */
   .content {
     text-align: center;
     padding: 20px;
-    max-width: 280px;
+    max-width: 300px;
+    margin:auto;
   }
 
 
